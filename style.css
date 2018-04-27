@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("background.png");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.heading {
+    text-align: center;
+    padding-top: 45px;
+}
+
+.heading img {
+    width: 20%;
+}
+
+.info {
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+    font-size: 150%;
+}
+
+.info a {
+    text-decoration: none;
+    color: #A1F2C9;
+}
+
+.info a:hover {
+    color: #7E90A8;
+}
+
+.social-list {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.social-list li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+.social-list i {
+    color: #DE804E;
+}
+
+.social-list i:hover {
+    color: #7E90A8;
+}
+
+.team-logo {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.team-logo img {
+    width: 7.5%;
+}
